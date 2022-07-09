@@ -30,5 +30,5 @@ for produto in produtos:
     print('Titulo do produto: ', titulo.text)
     print('Link do produto: ', link['href'])
     print('Preço do produto R$: ', real.text+','+centavos.text, 'reais')
-
     print('\n\n')
+    
