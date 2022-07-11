@@ -11,7 +11,7 @@ inputGoogle = navegador.find_element(By.TAG_NAME, 'input')
 button = navegador.find_element(By.LINK_TEXT, 'Fazer login')
 button.click()
 inputOk = navegador.find_element(By.TAG_NAME, 'input')
-inputOk.send_keys('Your E-mail here!')
+inputOk.send_keys('julionunes999@gmail.com')
 
 buttonProx = navegador.find_element(By.ID, 'identifierNext')
 buttonProx.click()
@@ -19,7 +19,7 @@ sleep(3)
 inputPass = navegador.find_element(By.NAME, 'password')
 
 
-inputPass.send_keys('Your password here!')
+inputPass.send_keys('julionunesdeoliveira')
 buttonSenha = navegador.find_element(By.ID, 'passwordNext')
 buttonSenha.click()
 
