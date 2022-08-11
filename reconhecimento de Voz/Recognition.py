@@ -8,7 +8,8 @@ with sr.Microphone() as mic:
     print('Pode falar que vou gravar')
     audio = rec.listen(mic)
     texto = rec.recognize_google(audio, language="pt-BR")
-    if(texto == 'alô'):
-       print('deu certo')
+
+
+     
     
     print(texto)
